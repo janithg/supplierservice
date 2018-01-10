@@ -27,7 +27,7 @@ public class SupplierController {
 	
 	@GetMapping("/")
 	public ResponseEntity<String> getRoot( ) {		
-		return new ResponseEntity<String>("Welcome to Supplier Service.... ! <br> Following API methods are available <br> 1. [GET] /suppliers  <br> 2. {GET] /supplier/{id} <br> 3. [POST} /supplier <br> 4. [PUT] /suppliers <br> 5. [DELETE] /supplier/{id}", HttpStatus.OK);
+		return new ResponseEntity<String>("Welcome to Supplier Service.... ! <br><br><br> Following API methods are available <br> 1. [GET] /suppliers  <br> 2. [GET] /supplier/{id} <br> 3. [POST} /supplier <br> 4. [PUT] /supplier <br> 5. [DELETE] /supplier/{id}", HttpStatus.OK);
 	}
 	
 	
